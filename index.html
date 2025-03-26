@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercice Meteo</title>
+        <link rel="icon" type="image/png" href="#">
+        <meta name="description" content="Site météorologique">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="column-day">
+                    <!--- JS -->
+                    <div class="date-time"></div>
+                    <div class="day">
+                        <div class="carre-vide"></div>
+                        <!--- JS -->
+                        <div class="weather-img">
+                            <img src="./images/Pictos/daynight/jour.png" class="day-jour">
+                            <img src="./images/Pictos/daynight/nuit.png" class="day-nuit">
+                        </div>
+                    </div>
+                </div>
+                <div class="column-weather">
+                    <!--- JS -->
+                    <div class="condition-meteo"></div>
+                    <!--- JS -->
+                    <div class="img-weather"></div>
+                    <!--- JS -->
+                    <div class="temperature"></div>
+                </div>
+                <div class="column-boussole">
+                    <div class="carre-vide"></div>
+                    <div class="boussole">
+                        <img src="./images/boussole/compass.png" alt="boussole">
+                        <img src="./images/boussole/arrow.png" alt="row" id="fleche-boussole">
+                        <!--- JS -->
+                        <div class="vitesse-wind"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="container-weather">
+                <div class="cards-temp"></div>
+                <!--- JS ITEM -->
+                <div class="cards-weather"></div>
+                <!--- JS ITEM -->
+            </section>
+        </main>
+        <footer>
+            <script src="./script.js"></script>
+        </footer>
+    </body>
+</html>
