@@ -1,5 +1,5 @@
 /* ----------------------- */
-/*API URL (https://open-meteo.com/) */
+/*API URL SITE WEB (https://open-meteo.com/) */
 /* ------- RESET ---------*/
 /* ----------------------- */
 * {
@@ -8,12 +8,11 @@
     box-sizing: border-box;
 }
 /* -------------------------------------------------- */
-/** DECLARER VARIABLE FONT - IMPORTER FONT **/
+/** FONT IMPACT REGULAR **/
 @font-face {
     font-family:"impactregular";
     src: url("./fonts/impact/Impact.ttf");
 }
-
 /* -------------------------------------------------- */
 /* ------------------ HOME PAGE-----------------------*/
 /* -------------------------------------------------- */
@@ -208,11 +207,6 @@ header{
     background-color: #ffffff31;
     margin-top: 4rem;
 }
-
-
-
-
-
 .container-weather .cards-temp .item{
     border: solid 1px #00000052;
     border-radius: 5%;

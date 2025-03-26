@@ -3,40 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exercice Meteo</title>
-        <link rel="icon" type="image/png" href="#">
-        <meta name="description" content="Site météorologique">
+        <title>Météo de Villefranche sur Saône</title>
+        <link rel="icon" type="image/png" href="./images/pictos/daynight/jour.png">
+        <meta name="description" content="Site météorologique de Villefranche sur Saône">
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
         <header>
             <nav class="navbar">
+                <!--- COLUMN 1 --->
                 <div class="column-day">
-                    <!--- JS -->
                     <div class="date-time"></div>
                     <div class="day">
                         <div class="carre-vide"></div>
-                        <!--- JS  -->
                         <div class="weather-img">
-                            <img src="./images/Pictos/daynight/jour.png" class="day-jour">
-                            <img src="./images/Pictos/daynight/nuit.png" class="day-nuit">
+                            <img src="./images/Pictos/daynight/jour.png" alt="Image d'un soleil pour indiquer le jour" class="day-jour">
+                            <img src="./images/Pictos/daynight/nuit.png" alt="Image d'une lune pour indiquer la nuit" class="day-nuit">
                         </div>
                     </div>
                 </div>
+                <!--- COLUMN 2 --->
                 <div class="column-weather">
-                    <!--- JS -->
                     <div class="condition-meteo"></div>
-                    <!--- JS -->
                     <div class="img-weather"></div>
-                    <!--- JS -->
                     <div class="temperature"></div>
                 </div>
+                <!--- COLUMN 3 --->
                 <div class="column-boussole">
                     <div class="carre-vide"></div>
                     <div class="boussole">
-                        <img src="./images/boussole/compass.png" alt="boussole">
-                        <img src="./images/boussole/arrow.png" alt="row" id="fleche-boussole">
-                        <!--- JS -->
+                        <img src="./images/boussole/compass.png" alt="Image du cadran de la boussole">
+                        <img src="./images/boussole/arrow.png" alt="Image d'une flèche pour la boussole" id="fleche-boussole">
                         <div class="vitesse-wind"></div>
                     </div>
                 </div>
@@ -45,9 +42,7 @@
         <main>
             <section class="container-weather">
                 <div class="cards-temp"></div>
-                <!--- JS ITEM -->
                 <div class="cards-weather"></div>
-                <!--- JS ITEM -->
             </section>
         </main>
         <footer>

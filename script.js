@@ -22,7 +22,7 @@ let temperatureHeure = document.querySelector(".cards-temp");
 // TEMPS PAR JOUR AVEC DATE + TEMPERATURE + IMG EN FONCTION DU TEMPS
 let cardsWeather = document.querySelector(".cards-weather");
 //
-//--- TABLEAU CODE WEATHER METEO (A COMPLETER)
+//--- TABLEAU CODE WEATHER METEO
 //
 let tableauMeteoActuel = {
     0: { description: "Ciel dégagé", image: "./images/meteo-actuel/soleil.png", background:"./images/background/degagé.jpg" },
